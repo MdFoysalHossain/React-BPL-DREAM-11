@@ -3,6 +3,10 @@
 @plugin "daisyui";
 
 
+:root{
+    background-color: #fefefe;
+}
+
 .max-container{
     max-width: 1440px;
     margin: 0 auto;
