@@ -1,0 +1,102 @@
+[
+  {
+    "player_image": "https://p.imgci.com/db/PICTURES/CMS/223900/223989.6.jpg",
+    "player_name": "Mashrafe Mortaza",
+    "player_country": "Bangladesh",
+    "player_role": "Bowler",
+    "rating": 4.8,
+    "bating_style": "Right-hand bat",
+    "bawling_style": "Right-arm fast-medium",
+    "price": "$120,000"
+  },
+  {
+    "player_image": "https://cricfit.com/wp-content/uploads/2023/08/post_image_f22184a.jpg",
+    "player_name": "Shakib Al Hasan",
+    "player_country": "Bangladesh",
+    "player_role": "All-rounder",
+    "rating": 5.0,
+    "bating_style": "Left-hand bat",
+    "bawling_style": "Left-arm orthodox",
+    "price": "$250,000"
+  },
+  {
+    "player_image": "https://st1.latestly.com/wp-content/uploads/2025/09/81-132-784x441.jpg",
+    "player_name": "Mustafizur Rahman",
+    "player_country": "Bangladesh",
+    "player_role": "Bowler",
+    "rating": 4.5,
+    "bating_style": "Right-hand bat",
+    "bawling_style": "Left-arm fast-medium",
+    "price": "$180,000"
+  },
+  {
+    "player_image": "https://www.newagebd.com/files/records/news/202208/179559_117.jpg",
+    "player_name": "Afif Hossain",
+    "player_country": "Bangladesh",
+    "player_role": "Batsman",
+    "rating": 4.3,
+    "bating_style": "Left-hand bat",
+    "bawling_style": "Right-arm offbreak",
+    "price": "$90,000"
+  },
+  {
+    "player_image": "https://www.bssnews.net/assets/news_photos/2025/09/09/image-310203-1757426826.jpg",
+    "player_name": "Liton Das",
+    "player_country": "Bangladesh",
+    "player_role": "Wicketkeeper-Batsman",
+    "rating": 4.7,
+    "bating_style": "Right-hand bat",
+    "bawling_style": "Right-arm medium",
+    "price": "$150,000"
+  },
+  {
+    "player_image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/301400/301403.3.jpg",
+    "player_name": "Tamim Iqbal",
+    "player_country": "Bangladesh",
+    "player_role": "Batsman",
+    "rating": 4.9,
+    "bating_style": "Left-hand bat",
+    "bawling_style": "Right-arm medium",
+    "price": "$200,000"
+  },
+  {
+    "player_image": "https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2018/06/01/Pictures/shahid-afridi_af9a7cae-656d-11e8-a998-12ee0acfa260.jpg",
+    "player_name": "Shahid Afridi",
+    "player_country": "Pakistan",
+    "player_role": "All-rounder",
+    "rating": 4.6,
+    "bating_style": "Right-hand bat",
+    "bawling_style": "Right-arm leg spin",
+    "price": "$130,000"
+  },
+  {
+    "player_image": "https://i0.wp.com/crictoday.com/wp-content/uploads/2023/03/russell-2-974075-1618508723.jpg?fit=1200%2C675&ssl=1",
+    "player_name": "Andre Russell",
+    "player_country": "West Indies",
+    "player_role": "All-rounder",
+    "rating": 5.0,
+    "bating_style": "Right-hand bat",
+    "bawling_style": "Right-arm fast-medium",
+    "price": "$300,000"
+  },
+  {
+    "player_image": "https://www.bssnews.net/assets/news_photos/2025/04/07/image-260897-1744027663.jpg",
+    "player_name": "Nasir Hossain",
+    "player_country": "Bangladesh",
+    "player_role": "All-rounder",
+    "rating": 4.2,
+    "bating_style": "Right-hand bat",
+    "bawling_style": "Right-arm offbreak",
+    "price": "$80,000"
+  },
+  {
+    "player_image": "https://www.zapcricket.com/cdn/shop/articles/WhatsApp_Image_2024-01-27_at_02.45.38.webp?v=1706649684",
+    "player_name": "Rashid Khan",
+    "player_country": "Afghanistan",
+    "player_role": "Bowler",
+    "rating": 4.9,
+    "bating_style": "Right-hand bat",
+    "bawling_style": "Right-arm leg spin",
+    "price": "$220,000"
+  }
+]

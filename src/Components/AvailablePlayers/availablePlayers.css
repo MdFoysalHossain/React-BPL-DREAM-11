@@ -1,0 +1,7 @@
+.available-players-container{
+    max-width: 1440px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
