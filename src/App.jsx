@@ -5,6 +5,7 @@ import Banner from './Components/Banner/Banner'
 import Navbar from './Components/Navbar/Navbar'
 import SelectedPlayer from './Components/SelectedPlayer/SelectedPlayer';
 import NewsLetter from './Components/NewsLetter/NewsLetter';
+import Footer from './Components/Footer/Footer';
 // import PlayersJson from "/player.json"
 
 const makePlayerPromise = async() => {
@@ -42,6 +43,8 @@ function App() {
     </Suspense>
 
     <NewsLetter></NewsLetter>
+
+    <Footer></Footer>
     </>
   )
 }
