@@ -3,7 +3,7 @@ import "./navbar.css"
 import Currency from "../Images/Currency.png"
 import Logo from "../../assets/logo.png"
 
-const Navbar = () => {
+const Navbar = ({currentBalance}) => {
     return (
         <div className="bg-white mt-10">
             <div className='navbar max-container'>
@@ -31,15 +31,15 @@ const Navbar = () => {
                         
                     </div>
                     <div className="navbar-end hidden gap-5 text-neutral-900 lg:flex">
-                        <ul className="menu menu-horizontal text-[rgba(19,19,19,0.7)] font-sora px-1">
-                            <li className='mr-5'><a>Home</a></li>
-                            <li className='mr-5'><a>Fixtures</a></li>
-                            <li className='mr-5'><a>Teams</a></li>
-                            <li className='mr-5'><a>Schedules</a></li>
+                        <ul className="menu menu-horizontal text-[rgba(19,19,19,0.7)] font-sora px-0">
+                            <li className='mr-2'><a>Home</a></li>
+                            <li className='mr-2'><a>Fixtures</a></li>
+                            <li className='mr-2'><a>Teams</a></li>
+                            <li className='mr-2'><a>Schedules</a></li>
 
                         </ul>
                         <a className="btn borde-1 font-sora border-gray-200 bg-transparent shadow-none text-black px-7 text-md font-semibold rounded-lg">
-                            <span>0</span> Coins
+                            <span>{currentBalance}</span> Coins
                             <img src={Currency} alt="" />
                         </a>
                     </div>
