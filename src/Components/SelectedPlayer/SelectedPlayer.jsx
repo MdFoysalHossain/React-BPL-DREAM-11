@@ -7,7 +7,7 @@ const SelectedPlayer = ({buttonState, playerSelected, setPlayerSelected, setIsAv
     else{
         return (
             <div className={buttonState? "hidden" : "visible"}>
-                <div className='max-w-[1220px] mx-auto flex flex-col gap-5 mt-10'>
+                <div className='max-w-[1220px] mx-auto flex flex-col gap-5 mt-10 p-2'>
                     {
                         playerSelected.map(player => <EachPlayer  currentBalance={currentBalance} setBalance={setBalance} key={player.id} isAvailable={isAvailable} setIsAvailable={setIsAvailable} setPlayerSelected={setPlayerSelected} playerSelected={playerSelected} player={player}></EachPlayer>)
                     }

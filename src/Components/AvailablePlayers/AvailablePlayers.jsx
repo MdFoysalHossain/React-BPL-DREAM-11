@@ -6,7 +6,7 @@ const AvailablePlayers = ({promiseMade, buttonState, playerSelected, setPlayerSe
     const promisedData = use(promiseMade);
     // console.log(promisedData); 
     return (
-        <div className={buttonState ? "max-w-[1220px] grid grid-cols-3 gap-5 mx-auto mt-10" : "max-w-[1220px] grid-cols-3 gap-5 mx-auto mt-10 hidden"}>
+        <div className={buttonState ? "max-w-[1220px] grid gap-5 mx-auto mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 " : "max-w-[1220px] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-auto mt-10 hidden"}>
             {
                 promisedData.map(player => <SinglePlayer currentBalance={currentBalance} setBalance={setBalance} isAvailable={isAvailable} setIsAvailable={setIsAvailable} key={player.id} playerSelected={playerSelected} setPlayerSelected={setPlayerSelected} player={player}></SinglePlayer>)
             }
@@ -61,7 +61,7 @@ function SinglePlayer({player, playerSelected, setPlayerSelected, currentBalance
 
     return(
         <div className='mx-auto' onLoad={() => didLoad()}>
-            <div className="card font-sora bg-white w-96 text-gray-900 shadow-sm rounded-2xl">
+            <div className="card font-sora bg-white w-86 md:w-96 text-gray-900 shadow-sm rounded-2xl">
                 <figure className='m-4 rounded-2xl max-h-[200px]'>
                     <img
                     src={player_image}

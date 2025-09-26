@@ -3,12 +3,12 @@ import BackGround from "../../assets/bg-shadow.png"
 
 const NewsLetter = () => {
     return (
-        <div className='bg-[#06091A] w-full py-[100px] mt-[300px] relative'>
+        <div className='bg-[#06091A] w-full py-[100px] md:py-[50px] lg:py-[100px]  mt-[300px] -mb-1 md:-mb-0 relative border-0 border-transparent'>
             <div className=' mt-50 mx-auto bg-[rgba(255,255,255,0.25)] absolute border-2 top-[-360px] left-1/2 -translate-x-1/2 rounded-2xl border-[#fff] 
-            lg:max-w-[1220px] lg:w-[1220px] md:w-[700px] w-[370px]
+             lg:w-[950px] xl:w-[1220px] md:w-[700px] w-[350px]
             p-3 lg:p-7            
             ' >
-                <div className="py-[70px] rounded-2xl border-1 bg-white bg-no-repeat bg-center bg-cover  border-gray-200" style={{ backgroundImage: `url(${BackGround})` }}>
+                <div className="py-[70px] rounded-2xl border-1 bg-white bg-no-repeat bg-center bg-cover border-gray-200" style={{ backgroundImage: `url(${BackGround})` }}>
                     <h2 className='font-sora text-2xl font-bold text-center text-[#131313]'>Subscribe to our Newsletter</h2>
                     <p className='font-sora text-lg text-center mt-1 text-[rgba(19,19,19,0.70)]'>Get the latest updates and news right in your inbox!</p>
                     <div className='w-full text-center lg:m-5'>

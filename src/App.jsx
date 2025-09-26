@@ -57,8 +57,8 @@ const AvailableTop = ({buttonState, setButtonState, playerSelected}) => {
 
 
     return (
-        <div className='max-w-[1220px] mt-10 mx-auto text-[#131313] flex justify-between font-sora'>
-            <h2 className='text-2xl font-bold'> {buttonState? "Available Player": "Selected Player (" + playerSelected.length + "/6)"}</h2>
+        <div className='max-w-[1220px] p-2 mt-10 mx-auto text-[#131313] flex md:items-start md:flex-row md:justify-between justify-center items-center flex-col font-sora'>
+            <h2 className='text-2xl font-bold mb-3 md:mb-0'> {buttonState? "Available Player": "Selected Player (" + playerSelected.length + "/6)"}</h2>
             <div>
                 <button className={buttonState ? buttonCss1 + " bg-[#E7FE29] font-bold" : buttonCss1} onClick={() => setButtonState(true)}>Available</button>
                 <button className={buttonState ? buttonCss2 : buttonCss2 + " bg-[#E7FE29] font-bold"} onClick={() => setButtonState(false)}>Selected ({playerSelected.length})</button>
